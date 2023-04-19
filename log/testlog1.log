@@ -1,0 +1,542 @@
+2023-04-17 17:31:48,408 [main] INFO ebanking - 1
+2023-04-17 17:31:48,433 [main] INFO ebanking - 2
+2023-04-17 17:31:48,437 [main] INFO ebanking - 3
+2023-04-17 17:31:48,442 [main] INFO ebanking - 4
+2023-04-17 17:31:48,446 [main] INFO ebanking - 5
+2023-04-17 17:34:46,995 [main] INFO bank-test - 1
+2023-04-17 17:34:47,011 [main] INFO bank-test - 2
+2023-04-17 17:34:47,014 [main] INFO bank-test - 3
+2023-04-17 17:34:47,016 [main] INFO bank-test - 4
+2023-04-17 17:34:47,018 [main] INFO bank-test - 5
+2023-04-17 17:36:39,616 [main] INFO test - 1
+2023-04-17 17:36:39,634 [main] INFO test - 2
+2023-04-17 17:36:39,637 [main] INFO test - 3
+2023-04-17 17:36:39,639 [main] INFO test - 4
+2023-04-17 17:36:39,642 [main] INFO test - 5
+2023-04-19 10:13:06,093 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:13:06,104 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:13:07,112 [main] INFO test - Validating
+2023-04-19 10:13:10,100 [main] INFO test - Response Code is : 200
+2023-04-19 10:13:10,101 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:13:11,108 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:13:13,154 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:13:13,155 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:13:14,170 [main] INFO test - Validating
+2023-04-19 10:13:14,605 [main] INFO test - Response Code is : 200
+2023-04-19 10:13:14,606 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:13:15,616 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:16:21,067 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:16:21,073 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:22,082 [main] INFO test - Validating
+2023-04-19 10:16:22,670 [main] INFO test - Response Code is : 404
+2023-04-19 10:16:22,671 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:23,683 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:16:23,701 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:16:23,702 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:24,708 [main] INFO test - Validating
+2023-04-19 10:16:27,690 [main] INFO test - Response Code is : 200
+2023-04-19 10:16:27,691 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:28,697 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:16:30,714 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:16:30,715 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:31,720 [main] INFO test - Validating
+2023-04-19 10:16:32,130 [main] INFO test - Response Code is : 200
+2023-04-19 10:16:32,133 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:33,142 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:16:35,151 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:16:35,152 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:36,167 [main] INFO test - Validating
+2023-04-19 10:16:36,593 [main] INFO test - Response Code is : 200
+2023-04-19 10:16:36,593 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:37,594 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:16:39,608 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:16:39,608 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:40,613 [main] INFO test - Validating
+2023-04-19 10:16:41,026 [main] INFO test - Response Code is : 200
+2023-04-19 10:16:41,026 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:42,034 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:16:44,045 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:16:44,046 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:45,048 [main] INFO test - Validating
+2023-04-19 10:16:45,544 [main] INFO test - Response Code is : 200
+2023-04-19 10:16:45,544 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:46,545 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:16:48,555 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/futuresmart
+2023-04-19 10:16:48,556 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:49,557 [main] INFO test - Validating
+2023-04-19 10:16:50,347 [main] INFO test - Response Code is : 200
+2023-04-19 10:16:50,347 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:16:51,351 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/futuresmart
+2023-04-19 10:18:20,275 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:18:20,277 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:21,280 [main] INFO test - Validating
+2023-04-19 10:18:23,250 [main] INFO test - Response Code is : 404
+2023-04-19 10:18:23,251 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:24,254 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:18:24,299 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:18:24,301 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:25,304 [main] INFO test - Validating
+2023-04-19 10:18:28,265 [main] INFO test - Response Code is : 200
+2023-04-19 10:18:28,265 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:50,686 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:18:50,691 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:51,702 [main] INFO test - Validating
+2023-04-19 10:18:53,452 [main] INFO test - Response Code is : 404
+2023-04-19 10:18:53,452 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:54,457 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:18:54,477 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:18:54,478 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:55,486 [main] INFO test - Validating
+2023-04-19 10:18:57,964 [main] INFO test - Response Code is : 200
+2023-04-19 10:18:57,966 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:18:58,971 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:19:00,980 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:19:00,981 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:01,983 [main] INFO test - Validating
+2023-04-19 10:19:02,423 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:02,425 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:03,440 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:19:05,447 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:19:05,447 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:06,448 [main] INFO test - Validating
+2023-04-19 10:19:06,890 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:06,890 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:07,898 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:19:09,909 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:19:09,910 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:10,912 [main] INFO test - Validating
+2023-04-19 10:19:11,589 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:11,590 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:12,592 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:19:14,617 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:19:14,618 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:15,628 [main] INFO test - Validating
+2023-04-19 10:19:16,193 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:16,194 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:17,199 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:19:19,208 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/futuresmart
+2023-04-19 10:19:19,209 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:20,216 [main] INFO test - Validating
+2023-04-19 10:19:21,827 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:21,828 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:22,838 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/futuresmart
+2023-04-19 10:19:24,857 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/careers
+2023-04-19 10:19:24,857 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:25,860 [main] INFO test - Validating
+2023-04-19 10:19:27,150 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:27,150 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:28,159 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/careers
+2023-04-19 10:19:30,176 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/investors
+2023-04-19 10:19:30,177 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:31,179 [main] INFO test - Validating
+2023-04-19 10:19:31,760 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:31,761 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:32,765 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/investors
+2023-04-19 10:19:34,774 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/our-stories
+2023-04-19 10:19:34,775 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:35,779 [main] INFO test - Validating
+2023-04-19 10:19:37,089 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:37,090 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:38,098 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/our-stories
+2023-04-19 10:19:40,105 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/site-services
+2023-04-19 10:19:40,106 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:41,122 [main] INFO test - Validating
+2023-04-19 10:19:41,901 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:41,901 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:42,910 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/site-services
+2023-04-19 10:19:44,929 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/esg-policies-and-data
+2023-04-19 10:19:44,929 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:45,934 [main] INFO test - Validating
+2023-04-19 10:19:46,915 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:46,915 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:47,924 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/esg-policies-and-data
+2023-04-19 10:19:49,940 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/kupfer-copper-germany
+2023-04-19 10:19:49,940 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:50,947 [main] INFO test - Validating
+2023-04-19 10:19:51,678 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:51,678 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:52,679 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/kupfer-copper-germany
+2023-04-19 10:19:54,687 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/covid-19
+2023-04-19 10:19:54,687 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:55,691 [main] INFO test - Validating
+2023-04-19 10:19:56,233 [main] INFO test - Response Code is : 200
+2023-04-19 10:19:56,234 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:19:57,247 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/covid-19
+2023-04-19 10:19:59,253 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/media
+2023-04-19 10:19:59,255 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:00,262 [main] INFO test - Validating
+2023-04-19 10:20:00,742 [main] INFO test - Response Code is : 200
+2023-04-19 10:20:00,742 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:01,755 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/media
+2023-04-19 10:20:03,771 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/suppliers
+2023-04-19 10:20:03,772 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:04,780 [main] INFO test - Validating
+2023-04-19 10:20:05,244 [main] INFO test - Response Code is : 200
+2023-04-19 10:20:05,245 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:06,257 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/suppliers
+2023-04-19 10:20:08,266 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/latest-consensus-estimates-disclaimer
+2023-04-19 10:20:08,267 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:09,274 [main] INFO test - Validating
+2023-04-19 10:20:18,404 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/thermal-coal-demerger-disclaimer
+2023-04-19 10:20:18,404 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:19,414 [main] INFO test - Validating
+2023-04-19 10:20:28,317 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/forest-defence-crisis-microsite-country
+2023-04-19 10:20:28,317 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:29,323 [main] INFO test - Validating
+2023-04-19 10:20:30,026 [main] INFO test - Response Code is : 200
+2023-04-19 10:20:30,027 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:31,031 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/forest-defence-crisis-microsite-country
+2023-04-19 10:20:33,039 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/offer-denied
+2023-04-19 10:20:33,040 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:34,048 [main] INFO test - Validating
+2023-04-19 10:20:34,532 [main] INFO test - Response Code is : 200
+2023-04-19 10:20:34,532 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:35,535 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/offer-denied
+2023-04-19 10:20:37,547 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/offer-disclaimer
+2023-04-19 10:20:37,547 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:38,556 [main] INFO test - Validating
+2023-04-19 10:20:43,134 [main] INFO test - Response Code is : 200
+2023-04-19 10:20:43,134 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:44,136 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/offer-disclaimer
+2023-04-19 10:20:46,150 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/preview-protection
+2023-04-19 10:20:46,151 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:20:47,161 [main] INFO test - Validating
+2023-04-19 10:25:56,064 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:25:56,070 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:25:57,075 [main] INFO test - Validating
+2023-04-19 10:25:58,945 [main] INFO test - Response Code is : 404
+2023-04-19 10:25:58,946 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:25:59,958 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:25:59,959 [main] INFO test - Running
+2023-04-19 10:25:59,985 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:25:59,985 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:26:00,994 [main] INFO test - Validating
+2023-04-19 10:26:04,166 [main] INFO test - Response Code is : 200
+2023-04-19 10:26:04,167 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:26:05,174 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:26:07,189 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:26:07,190 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:26:08,191 [main] INFO test - Validating
+2023-04-19 10:26:08,671 [main] INFO test - Response Code is : 200
+2023-04-19 10:26:08,672 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:26:09,673 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:26:11,680 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:26:11,680 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:26:12,695 [main] INFO test - Validating
+2023-04-19 10:26:13,140 [main] INFO test - Response Code is : 200
+2023-04-19 10:26:13,141 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:26:14,143 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:28:55,570 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:28:55,574 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:28:56,577 [main] INFO test - Validating
+2023-04-19 10:28:58,505 [main] INFO test - Response Code is : 404
+2023-04-19 10:28:58,505 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:28:59,509 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:28:59,511 [main] INFO test - Running
+2023-04-19 10:28:59,534 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:28:59,535 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:00,545 [main] INFO test - Validating
+2023-04-19 10:29:03,062 [main] INFO test - Response Code is : 200
+2023-04-19 10:29:03,063 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:04,068 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:29:06,090 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:29:06,091 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:07,095 [main] INFO test - Validating
+2023-04-19 10:29:07,481 [main] INFO test - Response Code is : 200
+2023-04-19 10:29:07,481 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:08,483 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:29:10,499 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:29:10,499 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:11,503 [main] INFO test - Validating
+2023-04-19 10:29:12,136 [main] INFO test - Response Code is : 200
+2023-04-19 10:29:12,136 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:13,144 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:29:15,159 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:29:15,160 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:16,163 [main] INFO test - Validating
+2023-04-19 10:29:16,545 [main] INFO test - Response Code is : 200
+2023-04-19 10:29:16,545 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:17,553 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:29:19,565 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:29:19,566 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:20,568 [main] INFO test - Validating
+2023-04-19 10:29:21,074 [main] INFO test - Response Code is : 200
+2023-04-19 10:29:21,074 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:29:22,090 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:30:14,862 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:30:14,873 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:15,886 [main] INFO test - Validating
+2023-04-19 10:30:17,612 [main] INFO test - Response Code is : 404
+2023-04-19 10:30:17,612 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:18,625 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:30:18,627 [main] INFO test - Running
+2023-04-19 10:30:18,672 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:30:18,673 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:19,683 [main] INFO test - Validating
+2023-04-19 10:30:22,321 [main] INFO test - Response Code is : 200
+2023-04-19 10:30:22,321 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:23,332 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:30:25,340 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:30:25,340 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:26,351 [main] INFO test - Validating
+2023-04-19 10:30:26,728 [main] INFO test - Response Code is : 200
+2023-04-19 10:30:26,729 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:27,743 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:30:29,757 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:30:29,757 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:30,762 [main] INFO test - Validating
+2023-04-19 10:30:31,173 [main] INFO test - Response Code is : 200
+2023-04-19 10:30:31,173 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:32,186 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:30:34,202 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:30:34,202 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:35,216 [main] INFO test - Validating
+2023-04-19 10:30:35,674 [main] INFO test - Response Code is : 200
+2023-04-19 10:30:35,675 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:36,695 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:30:38,697 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:30:38,698 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:39,706 [main] INFO test - Validating
+2023-04-19 10:30:40,215 [main] INFO test - Response Code is : 200
+2023-04-19 10:30:40,215 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:30:41,226 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/sustainable-mining-plan
+2023-04-19 10:30:43,238 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/futuresmart
+2023-04-19 10:30:43,239 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:21,099 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:31:21,103 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:22,104 [main] INFO test - Validating
+2023-04-19 10:31:23,188 [main] INFO test - Response Code is : 404
+2023-04-19 10:31:23,189 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:24,202 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:31:24,203 [main] INFO test - Running
+2023-04-19 10:31:24,226 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:31:24,227 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:25,233 [main] INFO test - Validating
+2023-04-19 10:31:28,167 [main] INFO test - Response Code is : 200
+2023-04-19 10:31:28,168 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:29,172 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/
+2023-04-19 10:31:31,183 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:31:31,183 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:32,196 [main] INFO test - Validating
+2023-04-19 10:31:32,670 [main] INFO test - Response Code is : 200
+2023-04-19 10:31:32,670 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:33,676 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/transparency-in-tax-reporting
+2023-04-19 10:31:35,692 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:31:35,692 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:36,707 [main] INFO test - Validating
+2023-04-19 10:31:37,560 [main] INFO test - Response Code is : 200
+2023-04-19 10:31:37,560 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:38,561 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/about-us
+2023-04-19 10:31:40,567 [main] INFO test - URl Is :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:31:40,568 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:41,572 [main] INFO test - Validating
+2023-04-19 10:31:42,037 [main] INFO test - Response Code is : 200
+2023-04-19 10:31:42,037 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:31:43,052 [main] INFO test - URl Without 404 :  https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/products
+2023-04-19 10:32:20,390 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:32:20,394 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:32:21,398 [main] INFO test - Validating
+2023-04-19 10:32:22,694 [main] INFO test - Response Code is : 404
+2023-04-19 10:32:22,695 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:32:23,705 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:32:23,707 [main] INFO test - Running
+2023-04-19 10:33:28,757 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:33:28,759 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:33:29,772 [main] INFO test - Validating
+2023-04-19 10:33:30,951 [main] INFO test - Response Code is : 404
+2023-04-19 10:33:30,951 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:33:31,954 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:33:31,962 [main] INFO test - Running
+2023-04-19 10:33:31,972 [main] INFO test - created 2
+2023-04-19 10:33:32,032 [main] INFO test - Failed URL and time written to FailedUrl_404.xml
+2023-04-19 10:33:33,042 [main] INFO test - write to file
+2023-04-19 10:33:33,042 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:34:13,901 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:34:13,906 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:34:14,915 [main] INFO test - Validating
+2023-04-19 10:34:16,588 [main] INFO test - Response Code is : 404
+2023-04-19 10:34:16,589 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:34:17,598 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:34:17,599 [main] INFO test - Running
+2023-04-19 10:34:17,630 [main] INFO test - created
+2023-04-19 10:34:17,783 [main] INFO test - Failed URL and time written to FailedUrl_404.xml
+2023-04-19 10:34:18,791 [main] INFO test - write to file
+2023-04-19 10:34:18,792 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:35:36,111 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:35:36,117 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:35:37,124 [main] INFO test - Validating
+2023-04-19 10:35:37,771 [main] INFO test - Response Code is : 404
+2023-04-19 10:35:37,771 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:35:38,787 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:35:38,788 [main] INFO test - Running
+2023-04-19 10:35:38,798 [main] INFO test - created 2
+2023-04-19 10:35:38,854 [main] INFO test - Failed URL and time written to FailedUrl_404.xml
+2023-04-19 10:35:39,862 [main] INFO test - write to file
+2023-04-19 10:35:39,862 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:36:10,290 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:36:10,295 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:36:11,296 [main] INFO test - Validating
+2023-04-19 10:36:13,388 [main] INFO test - Response Code is : 404
+2023-04-19 10:36:13,388 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:36:14,398 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:36:14,399 [main] INFO test - Running
+2023-04-19 10:36:14,424 [main] INFO test - created
+2023-04-19 10:36:14,601 [main] INFO test - Failed URL and time written to FailedUrl_404.xml
+2023-04-19 10:36:15,604 [main] INFO test - write to file
+2023-04-19 10:36:15,605 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:39:08,996 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:39:08,999 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:39:10,002 [main] INFO test - Validating
+2023-04-19 10:39:11,158 [main] INFO test - Response Code is : 404
+2023-04-19 10:39:11,158 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:39:12,162 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:39:12,173 [main] INFO test - Trying To Write Failed Url
+2023-04-19 10:39:12,186 [main] INFO test - created
+2023-04-19 10:39:12,268 [main] INFO test - FailedUrl and time written to FailedUrl_404.xml
+2023-04-19 10:39:13,281 [main] INFO test - write to file
+2023-04-19 10:39:13,282 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:44:06,634 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:44:06,642 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:44:07,650 [main] INFO test - Validating
+2023-04-19 10:44:08,835 [main] INFO test - Response Code is : 404
+2023-04-19 10:44:08,836 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:44:09,844 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:44:09,854 [main] INFO test - Trying To Write Failed Url
+2023-04-19 10:44:09,857 [main] INFO test - created 2
+2023-04-19 10:44:09,926 [main] INFO test - FailedUrl and time written to FailedUrl_404_Value(YearOfEra,4,19,EXCEEDS_PAD)Value(MonthOfYear,2)Value(DayOfMonth,2).xml
+2023-04-19 10:44:10,941 [main] INFO test - write to file
+2023-04-19 10:44:10,941 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:45:00,506 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:45:00,515 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:45:01,523 [main] INFO test - Validating
+2023-04-19 10:45:02,069 [main] INFO test - Response Code is : 404
+2023-04-19 10:45:02,070 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:45:03,081 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:45:03,100 [main] INFO test - Trying To Write Failed Url
+2023-04-19 10:45:03,108 [main] INFO test - created
+2023-04-19 10:45:03,280 [main] INFO test - FailedUrl and time written to FailedUrl_404_Value(YearOfEra,4,19,EXCEEDS_PAD)Value(MonthOfYear,2)Value(DayOfMonth,2).xml
+2023-04-19 10:45:04,295 [main] INFO test - write to file
+2023-04-19 10:45:04,296 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:48:39,407 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:48:39,412 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:48:40,421 [main] INFO test - Validating
+2023-04-19 10:48:41,380 [main] INFO test - Response Code is : 404
+2023-04-19 10:48:41,381 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:48:42,391 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:48:42,430 [main] INFO test - Trying To Write Failed Url
+2023-04-19 10:48:42,435 [main] INFO test - created 2
+2023-04-19 10:48:42,608 [main] INFO test - FailedUrl and time written to FailedUrl_404_2023_04_19_.xml
+2023-04-19 10:48:43,617 [main] INFO test - write to file
+2023-04-19 10:48:43,617 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:49:14,288 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:49:14,293 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:49:15,307 [main] INFO test - Validating
+2023-04-19 10:49:16,234 [main] INFO test - Response Code is : 404
+2023-04-19 10:49:16,235 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:49:17,242 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:49:17,258 [main] INFO test - Trying To Write Failed Url
+2023-04-19 10:49:17,265 [main] INFO test - created
+2023-04-19 10:49:17,430 [main] INFO test - FailedUrl and time written to FailedUrl_404_2023_04_19_.xml
+2023-04-19 10:49:18,441 [main] INFO test - write to file
+2023-04-19 10:49:18,443 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:48,326 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:58:48,334 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:49,337 [main] INFO test - Validating
+2023-04-19 10:58:49,578 [main] INFO test - Response Code is : 404
+2023-04-19 10:58:49,578 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:50,591 [main] ERROR test - URl With 404 :  https://www.angloamericangroupfoundation.org/faq/ulo
+2023-04-19 10:58:50,606 [main] INFO test - Trying To Write Failed Url
+2023-04-19 10:58:50,612 [main] INFO test - created
+2023-04-19 10:58:50,787 [main] INFO test - FailedUrl and time written to FailedUrl_404_2023_04_19_.xml
+2023-04-19 10:58:51,790 [main] INFO test - write to file
+2023-04-19 10:58:51,791 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:53,840 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/
+2023-04-19 10:58:53,842 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:54,849 [main] INFO test - Validating
+2023-04-19 10:58:55,516 [main] INFO test - Response Code is : 200
+2023-04-19 10:58:55,516 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:56,521 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/
+2023-04-19 10:58:58,535 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/our-strategic-priorities
+2023-04-19 10:58:58,535 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:58:59,543 [main] INFO test - Validating
+2023-04-19 10:58:59,826 [main] INFO test - Response Code is : 200
+2023-04-19 10:58:59,827 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:00,830 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/our-strategic-priorities
+2023-04-19 10:59:02,848 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/where-we-work
+2023-04-19 10:59:02,848 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:03,848 [main] INFO test - Validating
+2023-04-19 10:59:04,112 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:04,112 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:05,124 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/where-we-work
+2023-04-19 10:59:07,140 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/our-partners
+2023-04-19 10:59:07,141 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:08,154 [main] INFO test - Validating
+2023-04-19 10:59:08,392 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:08,393 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:09,402 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/our-partners
+2023-04-19 10:59:11,414 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/ambassadors-for-good
+2023-04-19 10:59:11,415 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:12,425 [main] INFO test - Validating
+2023-04-19 10:59:12,763 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:12,764 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:13,777 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/ambassadors-for-good
+2023-04-19 10:59:15,793 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/faq
+2023-04-19 10:59:15,794 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:16,810 [main] INFO test - Validating
+2023-04-19 10:59:17,053 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:17,053 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:18,059 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/faq
+2023-04-19 10:59:20,078 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services
+2023-04-19 10:59:20,079 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:21,082 [main] INFO test - Validating
+2023-04-19 10:59:23,062 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:23,062 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:24,071 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services
+2023-04-19 10:59:26,079 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/preview-protection
+2023-04-19 10:59:26,080 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:27,081 [main] INFO test - Validating
+2023-04-19 10:59:28,194 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:28,195 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:29,199 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/preview-protection
+2023-04-19 10:59:31,212 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/robots
+2023-04-19 10:59:31,213 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:32,220 [main] INFO test - Validating
+2023-04-19 10:59:32,585 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:32,585 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:33,598 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/robots
+2023-04-19 10:59:35,607 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services/site-map
+2023-04-19 10:59:35,607 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:36,609 [main] INFO test - Validating
+2023-04-19 10:59:36,886 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:36,886 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:37,892 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services/site-map
+2023-04-19 10:59:39,897 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services/cookie-policy
+2023-04-19 10:59:39,897 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:40,900 [main] INFO test - Validating
+2023-04-19 10:59:41,289 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:41,289 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:42,304 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services/cookie-policy
+2023-04-19 10:59:44,310 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services/accessibility
+2023-04-19 10:59:44,310 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:45,312 [main] INFO test - Validating
+2023-04-19 10:59:45,698 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:45,699 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:46,711 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services/accessibility
+2023-04-19 10:59:48,730 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services/privacy-policy
+2023-04-19 10:59:48,731 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:49,748 [main] INFO test - Validating
+2023-04-19 10:59:50,299 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:50,299 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:51,302 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services/privacy-policy
+2023-04-19 10:59:53,318 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services/terms-and-conditions
+2023-04-19 10:59:53,318 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:54,334 [main] INFO test - Validating
+2023-04-19 10:59:54,704 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:54,705 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:55,718 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services/terms-and-conditions
+2023-04-19 10:59:57,735 [main] INFO test - URl Is :  https://www.angloamericangroupfoundation.org/site-services/contact-us
+2023-04-19 10:59:57,735 [main] INFO test - Waiting For 1000 ms
+2023-04-19 10:59:58,748 [main] INFO test - Validating
+2023-04-19 10:59:59,109 [main] INFO test - Response Code is : 200
+2023-04-19 10:59:59,109 [main] INFO test - Waiting For 1000 ms
+2023-04-19 11:00:00,118 [main] INFO test - URl Without 404 :  https://www.angloamericangroupfoundation.org/site-services/contact-us

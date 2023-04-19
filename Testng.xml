@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InetBankingV1">
+
+	<listeners>
+		<listener class-name="utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Aenglo App Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			
+	
+	<!-- <class name="aengloSco.TC_001_Resource_Not_Found_Presente_Or_Not" />
+	 -->		  
+ 		
+ 		<!-- <class name="aengloSco.TC_002_Atleast_one_h1_Test" />
+	 	 -->
+	 	 
+<!-- 	<class name="aengloSco.TC_003_Meta_Description_Test" />
+	 -->
+	 
+	 <class name="testCases.TC_001_Resource_Not_Found_Presente_Or_Not" />
+	 
+	 
+<!-- 	 <class name="testCases.Sheet_Read" />
+	 --> 
+	 </classes>
+
+	</test>
+
+</suite>
