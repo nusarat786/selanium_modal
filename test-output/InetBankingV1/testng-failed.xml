@@ -5,12 +5,12 @@
     <listener class-name="utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Aenglo App Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testCases.TC_001_Resource_Not_Found_Presente_Or_Not">
         <methods>
           <include name="tearDown"/>
-          <include name="TC_001_404_Check" invocation-numbers="0"/>
+          <include name="TC_001_404_Check"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_001_Resource_Not_Found_Presente_Or_Not -->

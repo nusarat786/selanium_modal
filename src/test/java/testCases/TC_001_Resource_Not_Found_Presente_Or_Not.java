@@ -33,17 +33,23 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import com.aventstack.extentreports.ExtentTest;
 
 
 public class TC_001_Resource_Not_Found_Presente_Or_Not extends BaseClass {
 
+    private ExtentTest extentTest;
+
+    public String page_title = "_";
+    
 	@Test(dataProvider = "GetUrlData")
 	public void TC_001_404_Check(String Url
 
 	) throws InterruptedException, IOException {
 
-		String Urli = "https://anglo-american-group-plc-v5.cd.invdcloud-is.co.uk/en/yy";
-
+		
+		
+		
 		logger.info("URl Is :  " + Url);
 
 		// Navigate to the webpage
@@ -52,6 +58,8 @@ public class TC_001_Resource_Not_Found_Presente_Or_Not extends BaseClass {
 		logger.info("Waiting For 1000 ms");
 		Thread.sleep(1000);
 
+		page_title = driver.getTitle();
+		
 		logger.info("Validating");
 		
 		URL link = new URL(Url);
@@ -77,43 +85,46 @@ public class TC_001_Resource_Not_Found_Presente_Or_Not extends BaseClass {
 			logger.info("write to file");
 			logger.info("Waiting For 1000 ms");
 			Thread.sleep(2000);
+			captureScreen(driver,"TC_001_404_Check"+Url);
+			Thread.sleep(2000);
 			Assert.assertTrue(false);
-
+			
 		} else {
 			logger.info("URl Without 404 :  " + Url);
 			Thread.sleep(2000);
 			Assert.assertTrue(true);
 		}
-
+		logger.info("---------------------------------------------------------");
 	}
 
 	@DataProvider(name = "GetUrlData")
-	public  String[] extractLocTagsFromXmlUrl() throws Exception {
-		URL url = new URL(siteMapUrl);
+	public String[][] extractLocTagsFromXmlUrl() throws Exception {
+	    URL url = new URL(siteMapUrl);
+	    
+	    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+	    connection.setRequestMethod("GET");
+	    connection.setRequestProperty("Accept", "application/xml");
 
-		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-		connection.setRequestMethod("GET");
-		connection.setRequestProperty("Accept", "application/xml");
+	    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+	    DocumentBuilder db = dbf.newDocumentBuilder();
+	    Document doc = db.parse(connection.getInputStream());
+	    doc.getDocumentElement().normalize();
 
-		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-		DocumentBuilder db = dbf.newDocumentBuilder();
-		Document doc = db.parse(connection.getInputStream());
-		doc.getDocumentElement().normalize();
+	    ArrayList<String[]> locTags = new ArrayList<String[]>();
 
-		ArrayList<String> locTags = new ArrayList<String>();
-		
-		locTags.add("https://www.angloamericangroupfoundation.org/faq/ulo");
+	    NodeList nodeList = doc.getElementsByTagName("url");
 
-		NodeList nodeList = doc.getElementsByTagName("url");
+	    locTags.add(new String[]{"https://nusaratmehdihaveliwala.web.app/", "0"});
+	    
+	    for (int i = 0; i < nodeList.getLength(); i++) {
+	        Element element = (Element) nodeList.item(i);
+	        String loc = element.getElementsByTagName("loc").item(0).getTextContent();
+	        locTags.add(new String[]{loc, Integer.toString(i+1)});
+	    }
+	    
+	    connection.disconnect();
 
-		
-		  for (int i = 0; i < nodeList.getLength(); i++) { Element element = (Element)
-		  nodeList.item(i); String loc =
-		  element.getElementsByTagName("loc").item(0).getTextContent();
-		  locTags.add(loc); }
-	
-		connection.disconnect();
-		return locTags.toArray(new String[0]);
+	    return locTags.toArray(new String[0][]);
 	}
 
 

@@ -49,6 +49,11 @@ public class BaseClass {
 	public String password=readconfig.getPassword();
 	public String siteMapUrl=readconfig.getSitemapXml();
 	
+	public LocalDateTime now = LocalDateTime.now();
+	public DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy_MM_dd");
+	
+	public String date = formatter.format(now);
+	
 	List<String> chromOptionList = Arrays.asList("no-sandbox", "ignore-certificate-errors", "disable-extensions", "disable-infobars");
 	ChromeOptions chromeOptions = new ChromeOptions();
 	public static WebDriver driver;
@@ -105,7 +110,7 @@ public class BaseClass {
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
-		System.out.println("Screenshot taken");
+		logger.info("screenshot taken");
 	}
 	
 	public String randomestring()
@@ -176,6 +181,59 @@ public static void writeXml(String fileName,String CheckName, String url, LocalD
 		element.setTextContent(textContent);
 		return element;
 	}
+public static void writeXmlnd(String fileName,String CheckName, String url,String src, LocalDateTime time) {
+		
+		LocalDateTime now = LocalDateTime.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy_MM_dd");
+		
+		logger.info("Trying To Write Failed Url");
+		String filename = fileName+"_" + formatter.format(now) + "_" + ".xml" ; 
+		File file = new File(filename);
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder;
+		Document doc;
+
+		try {
+			dBuilder = dbFactory.newDocumentBuilder();
+			if (file.exists()) {
+				// If the file already exists, parse it and add a new element to the root
+				doc = dBuilder.parse(file);
+				Element root = doc.getDocumentElement();
+				Element failedURL = doc.createElement( fileName );
+				failedURL.appendChild(createElement(doc, "url", url));
+				failedURL.appendChild(
+						createElement(doc, "time", time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))));
+				root.appendChild(failedURL);
+				logger.info("created");
+			} else {
+				// If the file doesn't exist, create a new document and root element
+				doc = dBuilder.newDocument();
+				Element root = doc.createElement(fileName + "URLs");
+				doc.appendChild(root);
+				Element failedURL = doc.createElement(fileName);
+				failedURL.appendChild(createElement(doc, "url", url));
+				failedURL.appendChild(createElement(doc, "src", src));
+				failedURL.appendChild(
+						createElement(doc, "time", time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))));
+				root.appendChild(failedURL);
+				logger.info("created 2");
+			}
+
+			// Write the document to the XML file
+			
+			TransformerFactory transformerFactory = TransformerFactory.newInstance();
+			Transformer transformer = transformerFactory.newTransformer();
+			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+			DOMSource source = new DOMSource(doc);
+			StreamResult result = new StreamResult(file);
+			transformer.transform(source, result);
+			logger.info( CheckName + " and time written to " + filename);
+		} catch (ParserConfigurationException | SAXException | IOException | TransformerException e) {
+			e.printStackTrace();
+			logger.info("Failed");
+		}
+	}
+
 
 	
 	

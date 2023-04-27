@@ -16,14 +16,10 @@ public class Sheet_Read extends BaseClass {
 	public void TC_0018_Deposite_Money_Invalid_Value(
 			String No 
 			
-			
 			) throws InterruptedException, IOException {
 
 		logger.info(No);
-	
-				
-	
-	
+
 	}
 	
 	
