@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Aenglo_Sco">
+
+	<listeners>
+		<listener class-name="utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Aenglo App Test">
+		<parameter name="browser" value="chrome" />
+		
+	<classes>
+		 	  
+		<class name="testCases.TC_003_Meta_Description_Test" />
+		
+	 </classes>
+
+	</test>
+
+</suite>

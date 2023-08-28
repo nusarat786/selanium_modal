@@ -1,9 +1,16 @@
 package testCases;
 
+
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -22,6 +29,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -31,23 +39,38 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import utilities.ReadConfig;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class BaseClass {
+import javax.swing.JOptionPane;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
+public class BaseClass {
+	//TC_SCO_CONTENT
 	ReadConfig readconfig=new ReadConfig();
+	
+	public String _id = "is_express" ;
+	public String _password = "express@is!";
 	
 	public String baseURL=readconfig.getApplicationURL();
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
 	public String siteMapUrl=readconfig.getSitemapXml();
+	
+	public long Response_Time = (long) 0.00;
+	
+	//String name = JOptionPane.showInputDialog(null, "Enter Sitemap.xml Link");
 	
 	public LocalDateTime now = LocalDateTime.now();
 	public DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy_MM_dd");
@@ -60,12 +83,25 @@ public class BaseClass {
 	
 	public static Logger logger;
 	
-	@Parameters("browser")
+	public static boolean _checkImagealt;
+	public static boolean _checkImageblank;
+	public static boolean _checkLinktitle;
+	public static boolean _checkLinkblank;
+	
+	@Parameters({"browser", "screen","checkImagealt","checkImageblank","checkLinktitle","checkLinkblank"})
 	@BeforeClass
-	public void setup(String br)
+	public void setup(String br,String screen,boolean checkImagealt ,boolean checkImageblank,boolean checkLinktitle,boolean checkLinkblank) throws UnsupportedEncodingException
 	{			
+		
+		_checkImagealt = checkImagealt;
+		_checkImageblank = checkImageblank;
+		_checkLinktitle = checkLinktitle;
+		_checkLinkblank = checkLinkblank;
+		
 		logger = Logger.getLogger("test");
 		PropertyConfigurator.configure("Log4j.properties");
+		
+		logger.info(checkImagealt);
 		
 		if(br.equals("chrome"))
 		{
@@ -81,8 +117,7 @@ public class BaseClass {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
 			
-			driver=new ChromeDriver();
-			
+			driver=new ChromeDriver();			
 		}
 		else if(br.equals("firefox"))
 		{
@@ -95,8 +130,54 @@ public class BaseClass {
 			driver = new InternetExplorerDriver();
 		}
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		//driver.get(baseURL);
+		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+		 Dimension size;
+	        switch (screen.toLowerCase()) {
+	            case "window":
+	                size = new Dimension(800, 600); // Set window size to 800x600
+	                break;
+	            case "mobile":
+	                size = new Dimension(360, 640); // Set mobile size to 360x640
+	                break;
+	            case "tablet":
+	                size = new Dimension(768, 1024); // Set tablet size to 768x1024
+	                break;
+	            default:
+	                size = new Dimension(1280, 1024); // Set default size to 1280x1024
+	                break;
+	        }
+	        
+	        
+	        driver.manage().window().setSize(size);
+		
+		
+		
+		
+		
+			/*
+			 * try { Thread.sleep(3000); } catch (InterruptedException e) { // TODO
+			 * Auto-generated catch block e.printStackTrace(); }
+			 * 
+			 * String URL="synergia-energy-ltd-d9.sid2-e1.investis.com"; String
+			 * user3="synergia-energy-ltd"; String pass3="7*s=hYM+CGYM9nfG";
+			 * 
+			 * String username3=URLEncoder.encode(user3,StandardCharsets.UTF_8.toString());
+			 * 
+			 * String passtest3=URLEncoder.encode(pass3,StandardCharsets.UTF_8.toString());
+			 * String url3="https://"+username3+":"+passtest3+"@"+ URL;
+			 * 
+			 * 
+			 * 
+			 * 
+			 * driver.get(url3);
+			 * 
+			 * 
+			 */
+        // Continue with any subsequent actions after authorization
+		
+		
+		
 	}
 	
 	@AfterClass
@@ -235,7 +316,36 @@ public static void writeXmlnd(String fileName,String CheckName, String url,Strin
 	}
 
 
-	
-	
+public static String getXPath(WebDriver driver, WebElement element) {
+    JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+    return (String) jsExecutor.executeScript(
+            "function getElementXPath(element) {" +
+                    "   if (element && element.id)" +
+                    "       return '//*[@id=\"' + element.id + '\"]';" +
+                    "   else {" +
+                    "       var path = getPath(element);" +
+                    "       return path ? '//' + path.toLowerCase() : null;" +
+                    "   }" +
+                    "}" +
+                    "function getPath(element) {" +
+                    "   var path = '';" +
+                    "   while (element) {" +
+                    "       var elementTag = element.nodeName.toLowerCase();" +
+                    "       var siblingIndex = 0;" +
+                    "       var sibling = element.previousElementSibling;" +
+                    "       while (sibling) {" +
+                    "           if (sibling.nodeName.toLowerCase() === elementTag) {" +
+                    "               siblingIndex++;" +
+                    "           }" +
+                    "           sibling = sibling.previousElementSibling;" +
+                    "       }" +
+                    "       var elementPathIndex = (siblingIndex > 0 ? '[' + (siblingIndex + 1) + ']' : '');" +
+                    "       path = elementTag + elementPathIndex + '/' + path;" +
+                    "       element = element.parentElement;" +
+                    "   }" +
+                    "   return path;" +
+                    "}" +
+                    "return getElementXPath(arguments[0]);", element);
+}
 	
 }

@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -66,7 +67,8 @@ public class Reporting extends TestListenerAdapter {
 		// successfully.");
 		
 		try {
-			String page_title = (String) tr.getTestClass().getRealClass().getField("page_title")
+			
+			String page_title = (String) tr.getTestClass().getRealClass().getField("globalFont")
 			        .get(tr.getInstance());
 			
 			testName.append("_" +page_title);
@@ -86,6 +88,24 @@ public class Reporting extends TestListenerAdapter {
 		for (int i = 0; i < parameters.length; i++) {
 			logger.log(Status.INFO, "Parameter " + (i + 1) + ": " + parameters[i]);
 		}
+		
+		Map<String, String> globalFont;
+//		try {
+//			globalFont = (Map<String, String>) tr.getTestClass().getRealClass().getField("globalFont")
+//			        .get(tr.getInstance());
+//			
+//			for (Map.Entry<String, String> entry : globalFont.entrySet()) {
+//	            String property = entry.getKey();
+//	            String value = entry.getValue();
+//	            logger.log(Status.INFO, property + " : " + value);  
+//	        }
+//			
+//		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+		
 	}
 
 	@Override
@@ -148,6 +168,8 @@ public class Reporting extends TestListenerAdapter {
 		// logger.createNode("Test Description").fail("Url Failed Is:" + p.toString() );
 
 		
+		
+		
 		String screenshotPath = System.getProperty("user.dir") + "\\Screenshots\\" + tr.getName() + y + ".png";
 
 		logger.log(Status.INFO, "Parameter Details:");
@@ -155,10 +177,9 @@ public class Reporting extends TestListenerAdapter {
 			logger.log(Status.INFO, "Parameter " + (j + 1) + ": " + parameters[j]);
 		}
 
-		System.out.println(screenshotPath.toString());
 		File f = new File(screenshotPath);
 
-		System.out.println("Is File" + f.exists());
+		
 
 		if (f.exists()) {
 			try {

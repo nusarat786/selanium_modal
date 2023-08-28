@@ -2,33 +2,37 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Aenglo_Sco">
-
-	<listeners>
-		<listener class-name="utilities.Reporting" />
+<listeners>
+		<listener class-name="utilities.Report2" />
 	</listeners>
-
+	
 
 	<test name="Aenglo App Test">
+		
 		<parameter name="browser" value="firefox" />
+		 
+	 <parameter name="screen" value="wnidow" />
+		 
+		
+	<!-- 	<parameter name="screen" value="mobile" />
+	 -->	 
+		
+		<!--  <parameter name="screen" value="tablet" />
+		  -->
+		  
+		 <parameter name="checkImagealt" value="true" />
+		 <parameter name="checkImageblank" value="false" />
+		
+		<parameter name="checkLinktitle" value="false" />
+		<parameter name="checkLinkblank" value="false" />
 		
 	<classes>
 			
-	<!-- <class name="testCases.TC_001_Resource_Not_Found_Presente_Or_Not" />
-	 -->	 	  
 	
-	<class name="testCases.TC_002_Atleast_one_h1_Test" />
-		 	  
-	<!-- <class name="testCases.TC_003_Meta_Description_Test" />
-	 -->	
-	
-	<!-- <class name="testCases.TC_004_Title_Test" />
-	 -->	 	  
-	
-	<!-- <class name="testCases.TC_005_alt_in_image_test" />
-	 -->	 	  
-	<!-- <class name="testCases.TC_006_Response_Time_Test" />
-	 -->
 	 
+	 <class name="testCases.TC_Content_Check" />
+
+	
 	 </classes>
 
 	</test>

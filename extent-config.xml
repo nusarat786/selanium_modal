@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extentreports>
     <configuration>
-        <!-- report theme -->
+    
+    	 <!-- report theme -->
         <!-- standard, dark -->
         <theme>dark</theme>
     
@@ -26,16 +27,72 @@
         <!-- custom javascript -->
         <scripts>
             <![CDATA[
-                $(document).ready(function() {
-                    
-                });
-            ]]>
+            
+            $(document).ready(function() {
+                var divToClick = $('.collapsible-header');
+                if (divToClick.length > 0) {
+                    divToClick.click();
+                }
+            });
+            
+		            function copyCell(cell) {
+		              
+			      var content = cell.innerText || cell.textContent;
+			      navigator.clipboard.writeText(content);
+			      alert('Cell content copied!');
+		    	}
+		    
+		    
+		    function highlightCell(cell) {
+  		cell.style.backgroundColor = "green";
+		}
+
+function unhighlightCell(cell) {
+  cell.style.backgroundColor = "red";
+}
+
+
+function copyTextToClipboard(text) {
+  // Create a temporary input element
+  var tempInput = document.createElement("input");
+  
+  // Set the input value to the desired text
+  tempInput.value = text;
+  
+  // Append the input element to the document
+  document.body.appendChild(tempInput);
+  
+  // Select the input text
+  tempInput.select();
+  
+  // Copy the selected text to the clipboard
+  document.execCommand("copy");
+  
+  // Remove the temporary input element from the document
+  document.body.removeChild(tempInput);
+}
+
+        ]]>
         </scripts>
         
         <!-- custom styles -->
         <styles>
             <![CDATA[
-                
+		                 #charts-row,#test-view-charts {
+		    display: none !important;
+		}
+
+			#test-view{
+				height: 100% !important;
+			}
+			
+			.yel{
+			background-color: ff9800 !important;
+			}
+			
+			.wid-40{
+			width: 40%  !important;
+			}
             ]]>
         </styles>
     </configuration>

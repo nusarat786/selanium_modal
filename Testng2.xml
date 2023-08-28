@@ -9,25 +9,15 @@
 
 
 	<test name="Aenglo App Test">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		
 	<classes>
 			
-	<!-- <class name="testCases.TC_001_Resource_Not_Found_Presente_Or_Not" />
-	 -->	 	  
-	
-	<!-- <class name="testCases.TC_002_Atleast_one_h1_Test" />
-	 -->	 	  
-	<!-- <class name="testCases.TC_003_Meta_Description_Test" />
-	 -->	
-	
-	<!-- <class name="testCases.TC_004_Title_Test" />
-	 -->	 	  
+	  
 	
 	<class name="testCases.TC_005_alt_in_image_test" />
 		 	  
-	<!-- <class name="testCases.TC_006_Response_Time_Test" />
-	 -->
+	
 	 
 	 </classes>
 

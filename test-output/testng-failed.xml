@@ -5,15 +5,17 @@
     <listener class-name="utilities.Report2"/>
   </listeners>
   <test thread-count="5" name="Aenglo App Test(failed)">
+    <parameter name="checkImagealt" value="true"/>
     <parameter name="browser" value="firefox"/>
+    <parameter name="screen" value="wnidow"/>
     <classes>
-      <class name="testCases.TC_005_alt_in_image_test">
+      <class name="testCases.TC_Content_Check">
         <methods>
-          <include name="TC_005_alt_in_image" invocation-numbers="0"/>
+          <include name="TC_Content_Check"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_005_alt_in_image_test -->
+      </class> <!-- testCases.TC_Content_Check -->
     </classes>
   </test> <!-- Aenglo App Test(failed) -->
 </suite> <!-- Failed suite [Aenglo_Sco] -->
